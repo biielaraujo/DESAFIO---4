@@ -54,11 +54,11 @@ p {
 }
 
 .get-button:hover {
-    opacity: .8;
+    opacity: 0.8;
 }
 
 .get-button:active {
-    opacity: .5;
+    opacity: 0.5;
 }
 
 .container-right {
@@ -78,15 +78,15 @@ p {
 }
 
 a:nth-child(2) {
-    opacity: .6;
+    opacity: 0.6;
 }
 
 .link-header:hover {
-    opacity: .8;
+    opacity: 0.8;
 }
 
 .link-header:active {
-    opacity: .4;
+    opacity: 0.4;
 }
 
 .img-shop {
