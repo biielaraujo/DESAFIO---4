@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: #5D5D7D;
+
+
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container-left {
+    display: inline-block;
+    width: 60%;
+    padding-left: 136px;
+    padding-top: 381px;
+}
+
+
+h1 {
+    font-size: 70px;
+    line-height: 80px;
+    width: 368px;
+}
+
+p {
+    width: 540px;
+    font-size: 28px;
+    line-height: 48px;
+    opacity: 0.6;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.get-button {
+    width: 269px;
+    height: 62px;
+    background: #9499EA;
+    box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+    border: none;
+    border-radius: 30px;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.get-button:hover {
+    opacity: 0.8;
+}
+
+.get-button:active {
+    opacity: 0.5;
+}
+
+.container-right {
+    display: inline-block;
+    background-color: rgba(93, 93, 125, 0.16);
+    width: 40%;
+    height: 100vh;
+    position: absolute;
+
+}
+
+.link-header {
+    font-size: 28px;
+    line-height: 41px;
+    margin-right: 41px;
+    cursor: pointer;
+}
+
+a:nth-child(2) {
+    opacity: 0.6;
+}
+
+.link-header:hover {
+    opacity: 0.8;
+}
+
+.link-header:active {
+    opacity: 0.4;
+}
+
+.img-shop {
+    width: 456px;
+    height: 562px;
+    position: relative;
+    top: 216px;
+    right: 127px;
+}
+
+header {
+    margin: 24px 0 0 57px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .container-left {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 50%;
+    }
+
+    .container-right {
+        display: block;
+        width: 100%;
+        height: auto;
+        position: static;
+        padding: 40px;
+    }
+
+    .img-shop {
+        position: static;
+        height: 322px;
+        width: 271px;
+    }
+
+    header {
+        display: none;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 52px;
+        text-align: center;
+        width: auto;
+        margin: 58px 50px 0 50px;
+    }
+
+    p {
+        width: auto;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        margin: 15px 40px;
+    }
+
+    .get-button {
+        margin: 0 auto;
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+
+.container-left{
+    height: 70%;
+}
+
+}
+    
